@@ -1,10 +1,7 @@
 import { WebPlugin } from '@capacitor/core';
 
-import type { UDPPlugin } from './definitions';
+// TODO lvb, maybe implement a safe mock web plugin for development
+// import type { UDPPlugin } from './definitions';
+// export class UDPWeb extends WebPlugin implements UDPPlugin {
 
-export class UDPWeb extends WebPlugin implements UDPPlugin {
-  async echo(options: { value: string }): Promise<{ value: string }> {
-    console.log('ECHO', options);
-    return options;
-  }
-}
+export class UDPWeb extends WebPlugin {}
