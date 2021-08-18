@@ -4,7 +4,7 @@ UDP Plugin for CapacitorJS based on the UDP Plugin of https://github.com/unitree
 ## Install
 
 ```bash
-npm install capacitor-udp
+npm install @frontall/capacitor-udp
 npx cap sync
 ```
 
